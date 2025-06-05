@@ -8,15 +8,13 @@ trigger:
 
 pool:
   vmImage: Default
-  
-
 steps:
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
 
 - script: gradle build
   displayName: 'buldddd'
--script: gradle run
+- script: gradle run
   displayName: gradle run
     
-  displayName: 'Run a multi-line script'
+ 
